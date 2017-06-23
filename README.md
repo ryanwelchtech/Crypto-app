@@ -5,7 +5,7 @@ Crypto is capable of monitoring the price of various crypto currencies such as B
 ## How I built it
 I coded the app in Xcode 8.3.3 using Swift 3.0. To gather the data for the crypto currencies, I used the API from <a href="https://api.coinmarketcap.com/v1/ticker/">CoinMarketCap</a> to display the top 100 crypto currencies. I then parsed the JSON data to the tableViewController. The parsed data ended up being the rank,symbol, name, and price of the virtual currency. 
 ## Challenges I ran into
-I ran into a few problems such as not being able to refresh the data when I pull down on the table view.
+I ran into a few problems such as not being able to refresh the data when I pull down on the table view and experiencing runtime errors that I never heard of before.
 ## Accomplishments that I'm proud of
 I am most proud of having. finished product. This was my first hackathon where I actually completed an app.
 ## What I learned?
